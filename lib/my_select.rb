@@ -11,7 +11,7 @@ if block_given?
   end
  array
  else 
-   "This "
+   "This block should not run"
   
 end
 end
