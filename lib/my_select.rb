@@ -7,6 +7,7 @@ if block_given?
     if yield(collection[i])
       array.push(collection[i])
     end
+    i += 1 
     array
   end
 end
