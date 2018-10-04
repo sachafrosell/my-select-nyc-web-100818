@@ -8,8 +8,9 @@ if block_given?
       array.push(collection[i])
     end
     i += 1 
-    array
   end
+ array
+  
 end
 end
 
