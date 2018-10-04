@@ -4,7 +4,7 @@ if block_given?
   array = []
   
   while i < collection.length do
-    
+    if yield(collec)
 end
 
 my_select(["hello", "hallo", "yellaf"])
