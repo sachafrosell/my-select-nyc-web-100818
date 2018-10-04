@@ -10,6 +10,8 @@ if block_given?
     i += 1 
   end
  array
+ else 
+   "This "
   
 end
 end
